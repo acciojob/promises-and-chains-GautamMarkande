@@ -4,7 +4,7 @@ let prom1 = new Promise((resolve,reject)=>{
 submitbtn.addEventListener("click", (e)=>{
 	const age = parseInt(document.getElementById("age").value);
 	const name = document.getElementById("name").value;
-	if(age>=18){
+	if(age>18){
 			resolve(name);
 		
 	}else{
