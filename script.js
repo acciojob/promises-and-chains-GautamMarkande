@@ -15,5 +15,6 @@ submitbtn.addEventListener("click", (e)=>{
 prom1.then((name)=>{
 	alert(`Welcome, ${name}. You can vote.`)
 }).catch((name)=>{
-	alert(`Oh sorry ${name}. You aren't old enough.`)
+	//alert(`Oh sorry ${name}. You aren't old enough.`)
+	alert('Please enter valid details')
 })
